@@ -1,0 +1,7 @@
+function code() {
+  if [ $# -eq 0 ]; then
+    command code . && exit
+  else
+    command code $@
+  fi
+}
