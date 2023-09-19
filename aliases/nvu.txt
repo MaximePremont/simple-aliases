@@ -1,0 +1,7 @@
+function nvu() {
+  if [ $# -eq 0 ]; then
+    command nvm use
+  else
+    command nvm use $@
+  fi
+}
